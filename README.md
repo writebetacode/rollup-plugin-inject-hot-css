@@ -13,7 +13,7 @@ A simple CSS Hot Module Replacement code injector for [Rollup](https://rollupjs.
 import styles from "rollup-plugin-styles";
 
 const injectHotCSS = require("rollup-plugin-inject-hot-css"),
-  isProduction = process.env.NODE_ENV === "pproduction";
+  isProduction = process.env.NODE_ENV === "production";
 
 export default {
   ...,
