@@ -1,3 +1,6 @@
+const path = require("path"),
+  defaultExtensions = [ ".css", ".scss", ".sass", ".less", ".styl" ];
+
 function hmrCode(filename) {
   return `
   ;(() => {
@@ -26,10 +29,8 @@ function hmrCode(filename) {
   `;
 }
 
-export default function injectHotCSS (options = {}) {
-  const path = require("path"),
-    defaultExtensions = [ ".css", ".scss", ".sass", ".less", ".styl" ],
-    extensions = options.extensions || defaultExtensions;
+module.exports = function injectHotCSS(options = {}) {
+  const extensions = options.extensions || defaultExtensions;
 
   return {
     name: "injectHotCSS",
