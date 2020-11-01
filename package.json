@@ -1,0 +1,26 @@
+{
+  "name": "rollup-plugin-inject-hot-css",
+  "version": "1.0.0",
+  "description": "rollup plugin to inject required module logic for nollup allowing hot css refreshes without page-reload",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/writebetacode/rollup-plugin-inject-hot-css.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "nollup",
+    "hmr",
+    "hot",
+    "module",
+    "replacement",
+    "css"
+  ],
+  "author": "Michael Scholle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writebetacode/rollup-plugin-inject-hot-css/issues"
+  },
+  "homepage": "https://github.com/writebetacode/rollup-plugin-inject-hot-css#readme"
+}
