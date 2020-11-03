@@ -31,8 +31,13 @@ export default {
 
 ## Options
 
-* extensions - array defining the file extensions this plugin should use to determine which files to inject the css hot module replacement code into.
-  * Defaults to `[ ".css", ".scss", ".sass", ".less", ".styl" ]`
+### `extensions`
+
+Type: `Array[...String]`
+
+Defines the extensions of the files this plugin will inject the css hot module replacement code into.
+
+Default: `[ ".css", ".scss", ".sass", ".less", ".styl" ]`
 
 ## Hot Module Replacement
 
