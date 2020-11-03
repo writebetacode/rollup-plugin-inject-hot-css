@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-inject-hot-css",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "rollup plugin to inject required module logic for nollup allowing hot css refreshes without page-reload",
   "main": "index.js",
   "repository": {
