@@ -11,9 +11,9 @@ A simple CSS Hot Module Replacement code injector for [Rollup](https://rollupjs.
 ```js
 // rollup.config.js
 import styles from "rollup-plugin-styles";
+import injectHotCSS from "rollup-plugin-inject-hot-css";
 
-const injectHotCSS = require("rollup-plugin-inject-hot-css"),
-  isProduction = process.env.NODE_ENV === "production";
+const isProduction = process.env.NODE_ENV === "production";
 
 export default {
   ...,
